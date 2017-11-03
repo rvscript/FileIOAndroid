@@ -11,9 +11,7 @@
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
-        android:layout_gravity="center"
         android:layout_height="0dp"
-        android:layout_marginTop="30dp"
         android:layout_weight="2"
         android:hint="Type message here"/>
 
@@ -40,7 +38,8 @@
         android:text="FILE I/O"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:scrollbars="vertical"/>
 
 
 </LinearLayout>
